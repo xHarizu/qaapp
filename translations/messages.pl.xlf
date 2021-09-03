@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="file.ext">
+      <body>
+          <trans-unit id="label_question">
+              <source>label_question</source>
+              <target>Pytanie</target>
+          </trans-unit>
+          <trans-unit id="label_questions_list">
+              <source>label_questions_list</source>
+              <target>Lista pytań</target>
+          </trans-unit>
+          <trans-unit id="label_subject">
+              <source>label_subject</source>
+              <target>Temat</target>
+          </trans-unit>
+          <trans-unit id="label_askedby">
+              <source>label_askedby</source>
+              <target>Zadane przez</target>
+          </trans-unit>
+
+          <trans-unit id="label_actions">
+              <source>label_actions</source>
+              <target>Operacje</target>
+          </trans-unit>
+          <trans-unit id="message_empty_list">
+              <source>message_empty_list</source>
+              <target>Pusta lista.</target>
+          </trans-unit>
+
+          <trans-unit id="label_answers">
+              <source>label_answers</source>
+              <target>Odpowiedzi</target>
+          </trans-unit>
+          <trans-unit id="label_question_text">
+              <source>label_question_text</source>
+              <target>Treść pytania</target>
+          </trans-unit>
+          <trans-unit id="action_back_to_list">
+              <source>action_back_to_list</source>
+              <target>Powrót do listy</target>
+          </trans-unit>
+          <trans-unit id="message_item_not_found">
+              <source>message_item_not_found</source>
+              <target>Nie znaleziono pytania</target>
+          </trans-unit>
+          <trans-unit id="question_view">
+              <source>question_view</source>
+              <target>Podgląd</target>
+          </trans-unit>
+          <trans-unit id="action_view">
+              <source>action_view</source>
+              <target>Podgląd</target>
+          </trans-unit>
+
+          <trans-unit id="label_user_list">
+              <source>label_user_list</source>
+              <target>Lista użytkowników</target>
+          </trans-unit>
+          <trans-unit id="label_user_id">
+              <source>label_user_id</source>
+              <target>ID użytkownika</target>
+          </trans-unit>
+          <trans-unit id="label_email">
+              <source>label_email</source>
+              <target>E-mail</target>
+          </trans-unit>
+          <trans-unit id="label_password">
+              <source>label_password</source>
+              <target>Hasło</target>
+          </trans-unit>
+          <trans-unit id="label_asked_questions">
+              <source>label_asked_questions</source>
+              <target>Zadane pytania</target>
+          </trans-unit>
+          <trans-unit id="label_detail_users">
+              <source>label_detail_users</source>
+              <target>Szczegóły użytkownika</target>
+          </trans-unit>
+
+          <trans-unit id="title_question_create">
+              <source>title_question_create</source>
+              <target>Zadaj pytanie</target>
+          </trans-unit>
+          <trans-unit id="label_text">
+              <source>label_text</source>
+              <target>Treść</target>
+          </trans-unit>
+          <trans-unit id="action_logout">
+              <source>action_logout</source>
+              <target>Wyloguj</target>
+          </trans-unit>
+          <trans-unit id="action_save">
+              <source>action_save</source>
+              <target>Zapisz</target>
+          </trans-unit>
+
+          <trans-unit id="label_id">
+              <source>label_id</source>
+              <target>ID</target>
+          </trans-unit>
+          <trans-unit id="label_created_at">
+              <source>label_created_at</source>
+              <target>Utworzona</target>
+          </trans-unit>
+          <trans-unit id="label_updated_at">
+              <source>label_updated_at</source>
+              <target>Edytowana</target>
+          </trans-unit>
+          <trans-unit id="title_category_list">
+              <source>title_category_list</source>
+              <target>Lista kategorii</target>
+          </trans-unit>
+          <trans-unit id="label_title">
+              <source>label_title</source>
+              <target>Nazwa kategorii</target>
+          </trans-unit>
+          <trans-unit id="create_category">
+              <source>create_category</source>
+              <target>Stwórz kategorię</target>
+          </trans-unit>
+          <trans-unit id="category_create">
+              <source>category_create</source>
+              <target>Stwórz kategorię</target>
+          </trans-unit>
+          <trans-unit id="title_category_details">
+              <source>title_category_details</source>
+              <target>Szczegóły kategorii</target>
+          </trans-unit>
+
+          <trans-unit id="action_login">
+              <source>action_login</source>
+              <target>Zaloguj się</target>
+          </trans-unit>
+          <trans-unit id="title_category_create">
+              <source>title_category_create</source>
+              <target>Stwórz kategorię</target>
+          </trans-unit>
+          <trans-unit id="label_category">
+              <source>label_category</source>
+              <target>Kategoria</target>
+          </trans-unit>
+
+          <trans-unit id="category_created_successfully">
+              <source>category_created_successfully</source>
+              <target>Kategoria dodana</target>
+          </trans-unit>
+
+          <trans-unit id="action_create">
+              <source>action_create</source>
+              <target>Dodaj</target>
+          </trans-unit>
+          <trans-unit id="action_delete">
+              <source>action_delete</source>
+              <target>Usuń</target>
+          </trans-unit>
+          <trans-unit id="action_edit">
+              <source>action_edit</source>
+              <target>Edytuj</target>
+          </trans-unit>
+          <trans-unit id="label_questions_category">
+              <source>label_questions_category</source>
+              <target>Pytania z kategorii</target>
+          </trans-unit>
+          <trans-unit id="message_form_error">
+              <source>message_form_error</source>
+              <target>Błąd formularza</target>
+          </trans-unit>
+          <trans-unit id="title_task_details">
+              <source>title_task_details</source>
+              <target>Szczególy</target>
+          </trans-unit>
+
+          <trans-unit id="title_category_delete">
+              <source>title_category_delete</source>
+              <target>Usuń kategorię</target>
+          </trans-unit>
+          <trans-unit id="title_category_edit">
+              <source>title_category_edit</source>
+              <target>Edytuj kategorię</target>
+          </trans-unit>
+          <trans-unit id="title_question_delete">
+              <source>title_question_delete</source>
+              <target>Usuń kategorię</target>
+          </trans-unit>
+
+          <trans-unit id="message_updated_successfully">
+              <source>message_updated_successfully</source>
+              <target>Edytowano</target>
+          </trans-unit>
+
+
+</body>
+</file>
+</xliff>

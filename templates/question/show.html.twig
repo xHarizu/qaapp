@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    {{ 'label_question'|trans({'%id%': question.id|default('')}) }} {{ questions.id }}
+{% endblock %}
+
+{% block body %}
+    <h1>{{ 'label_question'|trans({'%id%': question.id|default('')}) }} {{ questions.id }}</h1>
+    {% if questions is defined and questions|length %}
+        <dl class="dl-horizontal">
+            <dt>{{ 'label_subject'|trans }}</dt>
+            <dd>{{ questions.subject }}</dd>
+            <dt>{{ 'label_question_text'|trans }}</dt>
+            <dd>{{  questions.text }}</dd>
+            <dt>{{ 'label_answers'|trans }}</dt>
+
+            <dd>
+                {% for answer in answers %}
+                    {% if answer.question.id == questions.id %}
+                       
+                    {{ answer.answertext }}
+                    {% endif %}
+                {% endfor %}
+            </dd>
+
+        </dl>
+        <p>
+            <a href="{{ url('question_index') }}" title="{{ 'action_back_to_list'|trans }}">
+                {{ 'action_back_to_list'|trans }}
+            </a>
+        </p>
+    {% else %}
+        <p>
+            {{ 'message_item_not_found'|trans }}
+        </p>
+    {% endif %}
+{% endblock %}

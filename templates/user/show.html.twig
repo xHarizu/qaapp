@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    {{ 'label_detail_users'|trans({'%id%': user.id|default('')}) }}
+{% endblock %}
+
+{% block body %}
+    <h1>{{ 'label_detail_users'|trans({'%id%': user.id|default('')}) }}</h1>
+    {% if users is defined and users|length %}
+        <dl class="dl-horizontal">
+            <dt>{{ 'label_email'|trans }}</dt>
+            <dd>{{ users.email }}</dd>
+            <dt>{{ 'label_password'|trans }}</dt>
+            <dd>{{  users.password }}</dd>
+            <dt>{{ 'label_asked_questions'|trans }}</dt>
+            {#<dd>{{  users.questions.subject }}</dd>#}
+        </dl>
+
+        <p>
+            <a href="{{ url('user_index') }}" title="{{ 'action_back_to_list'|trans }}">
+                {{ 'action_back_to_list'|trans }}
+            </a>
+        </p>
+    {% else %}
+        <p>
+            {{ 'message_item_not_found'|trans }}
+        </p>
+    {% endif %}
+{% endblock %}
